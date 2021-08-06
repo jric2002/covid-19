@@ -25,11 +25,14 @@ body {
 /* Header */
 .header {
     grid-area: header;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
 }
 .header .logo h1 {
     color: var(--white-color, #ffffff);
@@ -45,8 +48,45 @@ body {
 /** Mobile **/
 @media screen and (max-width: 720px) {
     .header .logo h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .search {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.header .search input[type="search"] {
+    outline: none;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.25rem 0.75rem 0.25rem 0.25rem;
+    transition: border 0.25s linear;
+}
+.header .search input[type="search"]:focus {
+    box-shadow: 0 0 10px 1px rgb(36, 144, 252, 0.75);
+}
+/*
+.header .search input[type="button"] {
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    color: var(--white-color, #ffffff);
+    background-color: transparent;
+    padding: 0.5rem;
+    margin: 0.25rem 0.5rem;
+    transition: background-color 0.25s linear;
+}
+.header .search input[type="button"]:hover {
+    background-color: var(--green-color, #98ca3f);
 }
 .header .fuente a {
     display: inline-block;
@@ -59,20 +99,43 @@ body {
     margin: 0.5rem 1rem;
     transition: background-color 0.5s linear;
 }
+*/
 /** Desktop **/
+/*
 @media screen and (min-width: 720px) {
     .header .fuente a {
         font-size: 20px;
     }
 }
+*/
 /** Mobile **/
+/*
 @media screen and (max-width: 720px) {
+    .header .fuente {
+        width: 100%;
+        text-align: center;
+    }
     .header .fuente a {
         font-size: 16px;
     }
 }
 .header .fuente a:hover {
     background-color: var(--sky-blue-color, #2490fc);
+}
+/*
+/** Desktop **/
+@media screen and (min-width: 720px) {
+    .header-space {
+        width: 100%;
+        height: 64px;
+    }
+}
+/** Mobile **/
+@media screen and (max-width: 720px) {
+    .header-space {
+        width: 100%;
+        height: 59px;
+    }
 }
 
 /* Covid-19 */
@@ -90,4 +153,16 @@ body {
 /* Footer */
 .footer {
     grid-area: footer;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.footer p {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1rem;
+}
+.footer-space {
+    height: 51px;
 }

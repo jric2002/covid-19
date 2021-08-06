@@ -41,20 +41,29 @@
         <link rel="stylesheet" type="text/css" href="main.css"/>
         <!-- Web Components -->
         <!-- <script type="text/javascript" src="components/Card.js"></script> -->
-        <script type="module" src="components/components.js"></script>
     </head>
     <body>
         <header class="header" id="header">
             <div class="logo">
                 <h1>☣&nbsp;Covid-19</h1>
             </div>
-            <div class="fuente">
-                <a href="https://covid19api.com/" target="_blank">Covid 19 API</a>
+            <div class="search">
+                <input type="search" class="box-search" id="box-search" placeholder="Buscar..." autofocus/>
+                <!-- <input type="button" id="button-search" value="Buscar"/> -->
             </div>
+            <!-- <div class="fuente">
+                <a href="https://covid19api.com/" target="_blank">Covid 19 API</a>
+            </div> -->
         </header>
+        <div class="header-space"></div>
         <section class="covid-19" id="covid-19"></section>
-        <footer class="footer" id="footer"></footer>
+        <div class="footer-space"></div>
+        <footer class="footer" id="footer">
+            <p>&copy; 2021 José Rodolfo</p>
+        </footer>
+        <!-- Tag noscript -->
+        <noscript>Necesita habilitar JavaScript para que la página web funcione correctamente</noscript>
         <!-- JavaScript files of the web page -->
-        <script type="text/javascript" src="main.js"></script>
+        <script type="module" src="main.js"></script>
     </body>
 </html>
