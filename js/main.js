@@ -1,7 +1,5 @@
 import { Card } from "./../components/Card.js";
 
-/* Menu */
-const BTN_MENU = document.getElementById("btn-menu");
 /* Http request */
 const URL = "https://api.covid19api.com/summary";
 async function requestCovid19() {
