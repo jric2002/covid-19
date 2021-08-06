@@ -7,6 +7,9 @@
 ## Información
 Esta página muestra información relevante sobre el Covid-19, la página utiliza esta API 👉 [Covid 19 API](https://covid19api.com/) 👈 para obtener los datos.
 
+## Despliegue
+Para ver la página crea un servidor local y además necesitas una conexión a internet para que la página pueda pedir los datos a la api.
+
 ## Soporte
 Si tienes alguna sugerencia o si ocurre algún problema, puedes dejar tu comentario en la sección de [**Issues**](https://github.com/jric2002/covid-19/issues).
 
