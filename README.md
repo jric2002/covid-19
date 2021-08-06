@@ -5,7 +5,7 @@
 ![Covid-19](https://github.com/jric2002/covid-19/blob/master/.images/covid-19.jpg)
 
 ## Información
-Esta 
+Esta página muestra información relevante sobre el Covid-19, la página utiliza esta API 👉 [Covid 19 API](https://covid19api.com/) 👈 para obtener los datos.
 
 ## Soporte
 Si tienes alguna sugerencia o si ocurre algún problema, puedes dejar tu comentario en la sección de [**Issues**](https://github.com/jric2002/covid-19/issues).
