@@ -11,4 +11,4 @@ Esta página muestra información relevante sobre el Covid-19, la página utiliz
 Si tienes alguna sugerencia o si ocurre algún problema, puedes dejar tu comentario en la sección de [**Issues**](https://github.com/jric2002/covid-19/issues).
 
 ## Licencia
-Telegram está hecho con 💚 por **José Rodolfo**. Vea el archivo de **Licencia** para más detalles.
+El proyecto está hecho con 💚 por **José Rodolfo**. Vea el archivo de **Licencia** para más detalles.
