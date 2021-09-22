@@ -11,7 +11,8 @@ Esta página muestra información relevante sobre el Covid-19, la página utiliz
 Para ver la página crea un servidor local y además necesitas una conexión a internet para que la página pueda pedir los datos a la api.
 
 ## Soporte
-Si tienes alguna sugerencia o si ocurre algún problema, puedes dejar tu comentario en la sección de [**Issues**](https://github.com/jric2002/covid-19/issues).
+Si tienes alguna sugerencia o si ocurre algún problema, puedes dejar tu comentario en la sección de [Issues](https://github.com/jric2002/covid-19/issues).
 
 ## Licencia
-El proyecto está hecho con 💚 por **José Rodolfo**. Vea el archivo de **Licencia** para más detalles.
+Vea el archivo de [Licencia](https://github.com/jric2002/covid-19/blob/master/LICENSE) para más detalles.  
+Covid-19 está hecho con 💙 por **José Rodolfo**.
