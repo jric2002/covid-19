@@ -34,4 +34,4 @@ Si tienes alguna sugerencia o si ocurre algún problema, puedes dejar tu comenta
 
 ## Licencia
 Vea el archivo de [Licencia](https://github.com/jric2002/covid-19/blob/master/LICENSE) para más detalles.  
-Covid-19 está hecho con 💚 por **José Rodolfo**.
+Covid-19 está hecho con 💙 por **José Rodolfo**.
