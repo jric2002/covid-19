@@ -1,5 +1,5 @@
 # Covid-19
-[![Covid-19 v1.0.0](https://img.shields.io/badge/Covid--19-v1.0.0-brightgreen)](https://github.com/jric2002/covid-19)
+[![Covid-19 v1.0.1](https://img.shields.io/badge/Covid--19-v1.0.1-brightgreen)](https://github.com/jric2002/covid-19)
 [![Release stable](https://img.shields.io/badge/Release-stable-brightgreen)](https://github.com/jric2002/covid-19)
 [![License GNU General Public License v3.0](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-blue)](https://github.com/jric2002/covid-19/blob/master/LICENSE)
 ![Covid-19](https://github.com/jric2002/covid-19/blob/master/.images/covid-19-statistics.png)
