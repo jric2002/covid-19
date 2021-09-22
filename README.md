@@ -17,7 +17,7 @@ Esta página muestra información relevante sobre el Covid-19, la página utiliz
     ```bash
     npm install
     ```
-4. Listo, ahora puedes construir el proyecto en una carpeta `dist` y luego desplegar el proyecto en modo producción.
+4. Listo, ahora puedes construir el proyecto en una carpeta `dist` y luego desplegar el proyecto en modo de producción.
     ```bash
     npm run build
     ```
